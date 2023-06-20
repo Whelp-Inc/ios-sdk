@@ -1,0 +1,22 @@
+PODS:
+  - WhelpChat (0.1.0)
+
+DEPENDENCIES:
+  - "WhelpChat (from `git@bitbucket.org:rashads/whelpchat.git`, branch `master`)"
+
+EXTERNAL SOURCES:
+  WhelpChat:
+    :branch: master
+    :git: "git@bitbucket.org:rashads/whelpchat.git"
+
+CHECKOUT OPTIONS:
+  WhelpChat:
+    :commit: 8a38b953d86b08a6ce3f223b54e71171081207b8
+    :git: "git@bitbucket.org:rashads/whelpchat.git"
+
+SPEC CHECKSUMS:
+  WhelpChat: cc50cdb65b9160a7eef4aa4812fa800ea38a98c0
+
+PODFILE CHECKSUM: 8aa264a2b0c99885a172387709dddd2d5b65cfcc
+
+COCOAPODS: 1.11.2

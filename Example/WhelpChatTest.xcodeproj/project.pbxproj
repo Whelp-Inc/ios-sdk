@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C519904667E168BF52565C41 /* Pods_WhelpChatTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DFB24AD8ECB1787D3A7E9C /* Pods_WhelpChatTest.framework */; };
+		E0421DEF2819C7F0001CDD22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0421DEE2819C7F0001CDD22 /* AppDelegate.swift */; };
+		E0421DF12819C7F0001CDD22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0421DF02819C7F0001CDD22 /* SceneDelegate.swift */; };
+		E0421DF32819C7F0001CDD22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0421DF22819C7F0001CDD22 /* ViewController.swift */; };
+		E0421DF82819C7F2001CDD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0421DF72819C7F2001CDD22 /* Assets.xcassets */; };
+		E0421DFB2819C7F2001CDD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0421DF92819C7F2001CDD22 /* LaunchScreen.storyboard */; };
+		E0421E062819C7F2001CDD22 /* WhelpChatTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0421E052819C7F2001CDD22 /* WhelpChatTestTests.swift */; };
+		E0421E102819C7F2001CDD22 /* WhelpChatTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0421E0F2819C7F2001CDD22 /* WhelpChatTestUITests.swift */; };
+		E0421E122819C7F2001CDD22 /* WhelpChatTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0421E112819C7F2001CDD22 /* WhelpChatTestUITestsLaunchTests.swift */; };
+		E0FE03C728214D76000B5DEF /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FE03C628214D76000B5DEF /* AlertController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0421E022819C7F2001CDD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0421DE32819C7F0001CDD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0421DEA2819C7F0001CDD22;
+			remoteInfo = WhelpChatTest;
+		};
+		E0421E0C2819C7F2001CDD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0421DE32819C7F0001CDD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0421DEA2819C7F0001CDD22;
+			remoteInfo = WhelpChatTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41DFB24AD8ECB1787D3A7E9C /* Pods_WhelpChatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhelpChatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904B48E210EB04D9DB4F9656 /* Pods-WhelpChatTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhelpChatTest.debug.xcconfig"; path = "Target Support Files/Pods-WhelpChatTest/Pods-WhelpChatTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E0421DEB2819C7F0001CDD22 /* WhelpChatTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhelpChatTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0421DEE2819C7F0001CDD22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0421DF02819C7F0001CDD22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0421DF22819C7F0001CDD22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0421DF72819C7F2001CDD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0421DFA2819C7F2001CDD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0421DFC2819C7F2001CDD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0421E012819C7F2001CDD22 /* WhelpChatTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhelpChatTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0421E052819C7F2001CDD22 /* WhelpChatTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhelpChatTestTests.swift; sourceTree = "<group>"; };
+		E0421E0B2819C7F2001CDD22 /* WhelpChatTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhelpChatTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0421E0F2819C7F2001CDD22 /* WhelpChatTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhelpChatTestUITests.swift; sourceTree = "<group>"; };
+		E0421E112819C7F2001CDD22 /* WhelpChatTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhelpChatTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0FE03C628214D76000B5DEF /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		E3BCB2E236732BA791007008 /* Pods-WhelpChatTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhelpChatTest.release.xcconfig"; path = "Target Support Files/Pods-WhelpChatTest/Pods-WhelpChatTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0421DE82819C7F0001CDD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C519904667E168BF52565C41 /* Pods_WhelpChatTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0421DFE2819C7F2001CDD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0421E082819C7F2001CDD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F34A09014C58B2BA14DD8C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41DFB24AD8ECB1787D3A7E9C /* Pods_WhelpChatTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ACE396AC6B45E825C9286D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904B48E210EB04D9DB4F9656 /* Pods-WhelpChatTest.debug.xcconfig */,
+				E3BCB2E236732BA791007008 /* Pods-WhelpChatTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0421DE22819C7F0001CDD22 = {
+			isa = PBXGroup;
+			children = (
+				E0421DED2819C7F0001CDD22 /* WhelpChatTest */,
+				E0421E042819C7F2001CDD22 /* WhelpChatTestTests */,
+				E0421E0E2819C7F2001CDD22 /* WhelpChatTestUITests */,
+				E0421DEC2819C7F0001CDD22 /* Products */,
+				8ACE396AC6B45E825C9286D9 /* Pods */,
+				1F34A09014C58B2BA14DD8C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0421DEC2819C7F0001CDD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0421DEB2819C7F0001CDD22 /* WhelpChatTest.app */,
+				E0421E012819C7F2001CDD22 /* WhelpChatTestTests.xctest */,
+				E0421E0B2819C7F2001CDD22 /* WhelpChatTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0421DED2819C7F0001CDD22 /* WhelpChatTest */ = {
+			isa = PBXGroup;
+			children = (
+				E0421DEE2819C7F0001CDD22 /* AppDelegate.swift */,
+				E0421DF02819C7F0001CDD22 /* SceneDelegate.swift */,
+				E0421DF22819C7F0001CDD22 /* ViewController.swift */,
+				E0421DF72819C7F2001CDD22 /* Assets.xcassets */,
+				E0421DF92819C7F2001CDD22 /* LaunchScreen.storyboard */,
+				E0421DFC2819C7F2001CDD22 /* Info.plist */,
+				E0FE03C628214D76000B5DEF /* AlertController.swift */,
+			);
+			path = WhelpChatTest;
+			sourceTree = "<group>";
+		};
+		E0421E042819C7F2001CDD22 /* WhelpChatTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E052819C7F2001CDD22 /* WhelpChatTestTests.swift */,
+			);
+			path = WhelpChatTestTests;
+			sourceTree = "<group>";
+		};
+		E0421E0E2819C7F2001CDD22 /* WhelpChatTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E0F2819C7F2001CDD22 /* WhelpChatTestUITests.swift */,
+				E0421E112819C7F2001CDD22 /* WhelpChatTestUITestsLaunchTests.swift */,
+			);
+			path = WhelpChatTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0421DEA2819C7F0001CDD22 /* WhelpChatTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0421E152819C7F2001CDD22 /* Build configuration list for PBXNativeTarget "WhelpChatTest" */;
+			buildPhases = (
+				0489BAD54AEDB7650E8EFAD3 /* [CP] Check Pods Manifest.lock */,
+				E0421DE72819C7F0001CDD22 /* Sources */,
+				E0421DE82819C7F0001CDD22 /* Frameworks */,
+				E0421DE92819C7F0001CDD22 /* Resources */,
+				127532B4AAE073AFE6924B84 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhelpChatTest;
+			productName = WhelpChatTest;
+			productReference = E0421DEB2819C7F0001CDD22 /* WhelpChatTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0421E002819C7F2001CDD22 /* WhelpChatTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0421E182819C7F2001CDD22 /* Build configuration list for PBXNativeTarget "WhelpChatTestTests" */;
+			buildPhases = (
+				E0421DFD2819C7F2001CDD22 /* Sources */,
+				E0421DFE2819C7F2001CDD22 /* Frameworks */,
+				E0421DFF2819C7F2001CDD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0421E032819C7F2001CDD22 /* PBXTargetDependency */,
+			);
+			name = WhelpChatTestTests;
+			productName = WhelpChatTestTests;
+			productReference = E0421E012819C7F2001CDD22 /* WhelpChatTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0421E0A2819C7F2001CDD22 /* WhelpChatTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0421E1B2819C7F2001CDD22 /* Build configuration list for PBXNativeTarget "WhelpChatTestUITests" */;
+			buildPhases = (
+				E0421E072819C7F2001CDD22 /* Sources */,
+				E0421E082819C7F2001CDD22 /* Frameworks */,
+				E0421E092819C7F2001CDD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0421E0D2819C7F2001CDD22 /* PBXTargetDependency */,
+			);
+			name = WhelpChatTestUITests;
+			productName = WhelpChatTestUITests;
+			productReference = E0421E0B2819C7F2001CDD22 /* WhelpChatTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0421DE32819C7F0001CDD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E0421DEA2819C7F0001CDD22 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					E0421E002819C7F2001CDD22 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E0421DEA2819C7F0001CDD22;
+					};
+					E0421E0A2819C7F2001CDD22 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E0421DEA2819C7F0001CDD22;
+					};
+				};
+			};
+			buildConfigurationList = E0421DE62819C7F0001CDD22 /* Build configuration list for PBXProject "WhelpChatTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0421DE22819C7F0001CDD22;
+			productRefGroup = E0421DEC2819C7F0001CDD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0421DEA2819C7F0001CDD22 /* WhelpChatTest */,
+				E0421E002819C7F2001CDD22 /* WhelpChatTestTests */,
+				E0421E0A2819C7F2001CDD22 /* WhelpChatTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0421DE92819C7F0001CDD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0421DFB2819C7F2001CDD22 /* LaunchScreen.storyboard in Resources */,
+				E0421DF82819C7F2001CDD22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0421DFF2819C7F2001CDD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0421E092819C7F2001CDD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0489BAD54AEDB7650E8EFAD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhelpChatTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		127532B4AAE073AFE6924B84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhelpChatTest/Pods-WhelpChatTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhelpChatTest/Pods-WhelpChatTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhelpChatTest/Pods-WhelpChatTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0421DE72819C7F0001CDD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FE03C728214D76000B5DEF /* AlertController.swift in Sources */,
+				E0421DF32819C7F0001CDD22 /* ViewController.swift in Sources */,
+				E0421DEF2819C7F0001CDD22 /* AppDelegate.swift in Sources */,
+				E0421DF12819C7F0001CDD22 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0421DFD2819C7F2001CDD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0421E062819C7F2001CDD22 /* WhelpChatTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0421E072819C7F2001CDD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0421E102819C7F2001CDD22 /* WhelpChatTestUITests.swift in Sources */,
+				E0421E122819C7F2001CDD22 /* WhelpChatTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0421E032819C7F2001CDD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0421DEA2819C7F0001CDD22 /* WhelpChatTest */;
+			targetProxy = E0421E022819C7F2001CDD22 /* PBXContainerItemProxy */;
+		};
+		E0421E0D2819C7F2001CDD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0421DEA2819C7F0001CDD22 /* WhelpChatTest */;
+			targetProxy = E0421E0C2819C7F2001CDD22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0421DF92819C7F2001CDD22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0421DFA2819C7F2001CDD22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0421E132819C7F2001CDD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0421E142819C7F2001CDD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0421E162819C7F2001CDD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904B48E210EB04D9DB4F9656 /* Pods-WhelpChatTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhelpChatTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whelp-chat.test.WhelpChatTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0421E172819C7F2001CDD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BCB2E236732BA791007008 /* Pods-WhelpChatTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhelpChatTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whelp-chat.test.WhelpChatTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0421E192819C7F2001CDD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whelp-chat.test.WhelpChatTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhelpChatTest.app/WhelpChatTest";
+			};
+			name = Debug;
+		};
+		E0421E1A2819C7F2001CDD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whelp-chat.test.WhelpChatTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhelpChatTest.app/WhelpChatTest";
+			};
+			name = Release;
+		};
+		E0421E1C2819C7F2001CDD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whelp-chat.test.WhelpChatTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhelpChatTest;
+			};
+			name = Debug;
+		};
+		E0421E1D2819C7F2001CDD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whelp-chat.test.WhelpChatTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhelpChatTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0421DE62819C7F0001CDD22 /* Build configuration list for PBXProject "WhelpChatTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0421E132819C7F2001CDD22 /* Debug */,
+				E0421E142819C7F2001CDD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0421E152819C7F2001CDD22 /* Build configuration list for PBXNativeTarget "WhelpChatTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0421E162819C7F2001CDD22 /* Debug */,
+				E0421E172819C7F2001CDD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0421E182819C7F2001CDD22 /* Build configuration list for PBXNativeTarget "WhelpChatTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0421E192819C7F2001CDD22 /* Debug */,
+				E0421E1A2819C7F2001CDD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0421E1B2819C7F2001CDD22 /* Build configuration list for PBXNativeTarget "WhelpChatTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0421E1C2819C7F2001CDD22 /* Debug */,
+				E0421E1D2819C7F2001CDD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0421DE32819C7F0001CDD22 /* Project object */;
+}
