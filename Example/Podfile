@@ -1,6 +1,6 @@
 use_frameworks!
 
 target 'WhelpChatTest' do
-pod 'WhelpChat', :git => 'git@bitbucket.org:rashads/whelpchat.git', :branch => 'master'
+pod 'WhelpChat', :git => 'git@github.com/Whelp-Inc/ios-sdk.git', :branch => 'main'
 
 end
