@@ -77,5 +77,39 @@ extension ChatController : WKUIDelegate, WKNavigationDelegate {
     public func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
         self.delegate?.onError(error: error)
     }
-    
+
+    // Links rendered with target="_blank" or opened via window.open ask for a new
+    // window; WKWebView silently drops them unless we handle it here.
+    public func webView(_ webView: WKWebView,
+                        createWebViewWith configuration: WKWebViewConfiguration,
+                        for navigationAction: WKNavigationAction,
+                        windowFeatures: WKWindowFeatures) -> WKWebView? {
+        if let url = navigationAction.request.url {
+            openExternally(url)
+        }
+        return nil
+    }
+
+    // Same-frame link taps: open outside the chat instead of navigating the widget away.
+    public func webView(_ webView: WKWebView,
+                        decidePolicyFor navigationAction: WKNavigationAction,
+                        decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        if navigationAction.navigationType == .linkActivated,
+           navigationAction.targetFrame?.isMainFrame != false,
+           let url = navigationAction.request.url {
+            openExternally(url)
+            decisionHandler(.cancel)
+            return
+        }
+        decisionHandler(.allow)
+    }
+
+    private func openExternally(_ url: URL) {
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(url)
+        }
+    }
+
 }
